@@ -84,6 +84,10 @@ video {
   vertical-align: baseline;
 }
 
+.top0 {
+  margin-top: 4.5rem;
+}
+
 *,
 *:before,
 *:after {
@@ -347,6 +351,11 @@ a:hover {
   color: #737375;
   font-size: 14px;
   font-weight: 500;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
 }
 
 #menu li {
