@@ -348,14 +348,15 @@ a:hover {
 
 #menu {
   text-align: center;
-  color: #737375;
-  font-size: 14px;
-  font-weight: 500;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 900;
   position: fixed;
   top: 0;
   z-index: 100;
   background-color: white;
   width: 100%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 #menu li {
@@ -365,7 +366,7 @@ a:hover {
 }
 
 #menu a {
-  color: #737375;
+  color: #3f3f3f;
 }
 
 /* Content
@@ -1485,6 +1486,13 @@ h1 {
 /* Media
 ------------------------------------------------------------------------------*/
 
+@media only screen and (max-device-width: 1350px) {
+  #logo {
+    padding-left: 500px;
+    float: none;
+  }
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-reso#lution: 192dpi) {
   #logo {
     background-image: url(../images/logo@2x.png);
@@ -1633,7 +1641,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 500px) {
   .last-products .bx-viewport {
     width: 466px !important;
   }
@@ -1664,9 +1672,9 @@ h1 {
   }
 
   .quick-links article {
-    max-width: 100%;
-    margin: 0;
-    height: auto;
+    width: 100%;
+    /* margin: 0; */
+    /* height: auto; */
     padding: 10px 0;
   }
 
@@ -1774,25 +1782,33 @@ h1 {
 
   #menu .trigger {
     display: block;
-    width: 35px;
-    height: 30px;
+    width: 55px;
+    height: 50px;
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 10px;
     cursor: pointer;
     background: url(../images/btn_mobile_menu.png) no-repeat 50% 50%;
+    background-color: white;
+    border-radius: 20px 10px 0px 5px;
+    z-index: 1000;
   }
 
   #menu ul {
-    top: 70px;
-    left: 0;
+    top: 10px;
+    /* left: 100px; */
     right: 0;
     display: none;
     z-index: 999;
     background: #fff;
     position: absolute;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #333;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.064),
+      -5px 5px 5px 0px rgba(0, 0, 0, 0.074),
+      5px -5px 5px 0px rgba(0, 0, 0, 0.068),
+      -5px -5px 5px 0px rgba(0, 0, 0, 0.119);
+    width: 200px;
+    padding: 2rem 0 1rem;
+    border-radius: 20px;
   }
 
   #menu ul.active {
@@ -1804,6 +1820,7 @@ h1 {
     display: block;
     overflow: hidden;
     text-align: center;
+    margin: 1rem 0;
   }
 
   #menu .container {
@@ -1923,16 +1940,15 @@ h1 {
     width: 49% !important;
   }
 }
+
 /* ------------  jwl   ------------- */
+
 .jwl {
   height: 800px;
-  width: 95%;
-  margin: 2rem auto;
+  margin: 2rem 2rem;
   border-radius: 20px;
   background-size: cover;
   justify-content: center;
-}
-.jwl {
   background-position: center;
   background-repeat: no-repeat;
 }
