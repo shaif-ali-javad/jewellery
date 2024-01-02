@@ -83,7 +83,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
+logo-0{}
 .top0 {
   margin-top: 4.5rem;
 }
@@ -346,6 +346,7 @@ a:hover {
   font-size: 1.5rem;
   padding: 1rem;
   text-transform: uppercase;
+  display: none;
 }
 /* Navigation
 ------------------------------------------------------------------------------*/
@@ -1683,6 +1684,8 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
+  .logo-0{display: block;}
+  
   .last-products .bx-viewport {
     width: 466px !important;
   }
