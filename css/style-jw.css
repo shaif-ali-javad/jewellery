@@ -85,7 +85,7 @@ video {
 }
 
 .top0 {
-  margin-top: 15rem;
+  margin-top: 1.7rem;
 }
 
 *,
@@ -1302,6 +1302,7 @@ h1 {
   color: #a5a5aa;
   font-size: 14px;
   line-height: 30px;
+  margin-bottom: -2rem;
 }
 
 #footer h3 {
@@ -2062,20 +2063,20 @@ h1 {
   padding-bottom: 0;
 }
 
-.box0 {
+/* .box0 {
   padding: 5rem;
   background-image: url(https://myjewelleryshop.com.au/cdn/shop/files/mjs-shop-front.jpg?v=1677173082&width=700);
   background-position: center;
   background-size: cover;
-}
+} */
 
-.box1 {
+/* .box1 {
   padding: 5rem;
   background-image: url(https://myjewelleryshop.com.au/cdn/shop/files/mjs-team.jpg?v=1677172886&width=800);
   background-position: center;
   background-size: cover;
-  margin: 15rem 0;
-}
+  margin: 10rem 0;
+} */
 
 /* .img-box0 img {
   z-index: -1;
@@ -2085,18 +2086,39 @@ h1 {
   z-index: -1;
 } */
 
-.text-box0 {
+/* .text-box0 {
   height: 100%;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.947);
-  /* margin: 3rem -10rem 0 0; */
-  /* z-index: 0; */
-}
+  background-color: rgba(255, 255, 255, 0.947); */
+/* margin: 3rem -10rem 0 0; */
+/* z-index: 0; */
+/* } */
 
 .text-box1 {
   height: 100%;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.947);
-  /* margin: 3rem 0rem 0 -10rem; */
+  background-color: rgba(255, 255, 255, 0.975);
+  margin: 0 0rem 3rem;
   /* z-index: 0; */
+}
+
+.box {
+  background-image: url(https://static.businessnews.com.au/sites/default/files/Aditya-Birla_A.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.text-box {
+  height: 100%;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.713);
+  /* margin: 3rem -10rem 0 0; */
+  /* z-index: 0; */
+}
+
+.text-box h1 {
+  text-align: center;
+  color: white;
+  font-weight: 900;
 }
