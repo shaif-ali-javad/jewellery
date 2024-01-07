@@ -67,6 +67,9 @@
   font-style: normal;
 }
 
+/* all
+------------------------------------------------------------------------------*/
+
 h1,
 h2,
 h3,
@@ -90,6 +93,9 @@ a {
   color: #888888;
 }
 
+/* footer
+------------------------------------------------------------------------------*/
+
 #footer {
   clear: both;
   background: #222224 url(../images/bg_footer.png);
@@ -106,35 +112,6 @@ a {
   text-transform: uppercase;
   font-weight: 500;
   padding-bottom: 10px;
-}
-
-#footer li:before {
-  content: "- ";
-}
-
-#footer .fas {
-  display: inline-block;
-  width: 19px;
-  height: 19px;
-  margin: -5px 10px -5px 0;
-}
-
-#footer .ico {
-  display: inline-block;
-  background: url(../images/ico_footer.png);
-  width: 19px;
-  height: 19px;
-  margin: -5px 10px -5px 0;
-}
-
-#footer .ico.ico-em {
-  background-position: 0 -76px;
-  margin: -7px 10px -7px -1px;
-}
-
-#footer .ico.ico-ph {
-  background-position: 0 -95px;
-  margin: -5px 10px -5px -3px;
 }
 
 #footer .conact p {
@@ -155,17 +132,64 @@ a {
   text-align: center;
 }
 
-.marin {
+.comntain-txt {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.marin-0 {
+  margin-right: 70px;
+  /* border-right: 1px solid white; */
+}
+
+.marin-1 {
+  text-align: left;
+}
+
+/* .marin {
   margin: auto;
   float: none;
   margin-bottom: 20px;
   width: 10%;
 }
+
 .conact {
   width: 100%;
+} */
+
+.conact i {
+  color: white;
+  font-size: 1.1rem;
 }
 
-@media screen and (max-width: 1200px) {
+.icon-0 {
+  margin-bottom: 25px;
+}
+
+.icon-0 i {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.conact #p-0 {
+  margin-left: 3px;
+  margin-right: 1.5px;
+}
+
+.conact #p-2 {
+  margin-left: 2.4px;
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 361px) {
+  .comntain-txt {
+    display: block;
+    margin-left: 20px;
+  }
+}
+
+/* @media screen and (max-width: 1200px) {
   .marin {
     width: 11%;
   }
@@ -217,25 +241,31 @@ a {
   .marin {
     width: 90%;
   }
-}
+} */
 
 /* ---------------------------------------------
   ------------------- menu -------------------- */
+
 .menu-contain {
   position: fixed;
   z-index: 1;
   width: 100%;
 }
-
 .menu {
-  text-align: center;
   color: #000000;
   font-size: 17px;
   font-weight: 900;
   z-index: 100;
   background-color: white;
+  height: 72px;
   width: 100%;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.navbar {
+  position: fixed;
+  margin-top: -105px;
+  right: 0;
 }
 
 .menu li {
@@ -262,10 +292,6 @@ a {
   font-size: 1.5rem;
 }
 
-.hidden a {
-  color: #d3b15b;
-}
-
 .responsive-logo {
   position: absolute;
   top: -10px;
@@ -288,9 +314,28 @@ a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #4c4c4c;
   display: block;
   transition: 0.3s;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.sidenav i {
+  padding: 0px 10px 0px 0px;
+  color: #4c4c4c;
+}
+
+.sidenav #a-1 {
+  padding: 0px 13px 0px 0px;
+}
+
+.sidenav #a-2 {
+  padding: 0px 16px 0px 0px;
+}
+
+.sidenav #a-3 {
+  padding: 0px 13px 0px 0px;
 }
 
 .sidenav a:hover {
@@ -300,10 +345,45 @@ a {
 .sidenav .closebtn {
   position: absolute;
   top: 10px;
-  right: 25px;
+  right: -170px;
   font-size: 36px;
   margin-left: 50px;
 }
 
-@media screen and (max-width: 428px) {
+.click {
+  display: none;
+}
+
+.logo {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.logo h3 {
+  font-weight: 900;
+  color: #d3b15b;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1201px) {
+  .click {
+    display: block;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+.slide-contain {
+  height: 400px;
+  width: 100%;
+  margin: -60px 0;
+  overflow: hidden;
 }
