@@ -222,6 +222,7 @@ a {
 /* ---------------------------------------------
   ------------------- menu -------------------- */
 .menu-contain {
+  position: fixed;
   z-index: 1;
   width: 100%;
 }
@@ -236,19 +237,11 @@ a {
   width: 100%;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
-.nav {
-  position: fixed;
-  background-color: white;
-  top: -50px;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-}
-.menu ul {
+
+.menu li {
   /* padding: 19px 19px 21px; */
   display: inline-block;
   font-family: "Novecentowide";
-  margin-top: -5px;
 }
 
 .menu a {
@@ -257,12 +250,16 @@ a {
 
 .li-0-contain {
   /* position: fixed; */
+  padding: 1rem;
+  background-color: white;
+  width: 100%;
+  z-index: -1;
 }
 
 .li-0 {
   text-transform: uppercase;
-  font-size: 10.5rem;
-  color: #d3b15b;
+  /* float: left; */
+  font-size: 1.5rem;
 }
 
 .hidden a {
