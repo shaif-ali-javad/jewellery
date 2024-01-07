@@ -2113,3 +2113,74 @@ h1 {
 .box-conatin {
   display: flex;
 }
+
+.b {
+  font-size: 1.5rem;
+}
+.p {
+  margin: 1rem 0;
+}
+
+.marin {
+  margin: auto;
+  float: none;
+  margin-bottom: 20px;
+  width: 10%;
+}
+.conact {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .marin {
+    width: 11%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .marin {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marin {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .marin {
+    width: 21%;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .marin {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .marin {
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .marin {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .marin {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .marin {
+    width: 90%;
+  }
+}

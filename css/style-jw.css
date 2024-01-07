@@ -1431,7 +1431,7 @@ h1 {
   padding-bottom: 37px;
 }
 
-/* #footer . {
+/* #footer {
   display: flex;
   margin: auto;
   padding-bottom: 37px;
@@ -2082,9 +2082,16 @@ h1 {
   z-index: -1;
 } */
 
-/* .img-box1 img {
-  z-index: -1;
-} */
+.img-box1 {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.img-box1 img {
+  height: 400px;
+  overflow: hidden;
+}
 
 /* .text-box0 {
   height: 100%;
@@ -2099,7 +2106,6 @@ h1 {
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.975);
   margin: 0 0rem 3rem;
-  /* z-index: 0; */
 }
 
 .box {
@@ -2121,4 +2127,73 @@ h1 {
   text-align: center;
   color: white;
   font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+  .img-box1 img {
+    width: 100%;
+  }
+}
+.marin {
+  margin: auto;
+  float: none;
+  margin-bottom: 20px;
+  width: 10%;
+}
+.conact {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .marin {
+    width: 11%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .marin {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marin {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .marin {
+    width: 21%;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .marin {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .marin {
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .marin {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .marin {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .marin {
+    width: 90%;
+  }
 }
