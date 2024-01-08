@@ -612,10 +612,9 @@ h1 {
   /* z-index: 0; */
 }
 
-.text-box h1 {
-  text-align: center;
-  color: white;
-  font-weight: 900;
+.text-box1 h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 552px) {
@@ -856,15 +855,15 @@ h1 {
 }
 
 .sidenav #a-1 {
-  padding: 0px 13px 0px 0px;
+  padding: 0px 13.2px 0px 0px;
 }
 
 .sidenav #a-2 {
-  padding: 0px 16px 0px 0px;
+  padding: 0px 16.3px 0px 0px;
 }
 
 .sidenav #a-3 {
-  padding: 0px 13px 0px 0px;
+  padding: 0px 13.3px 0px 0px;
 }
 
 .sidenav a:hover {

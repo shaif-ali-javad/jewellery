@@ -289,13 +289,13 @@ a {
 
 .menu .items-0:hover {
   border-bottom: 0.2rem solid #d3b15b;
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.4rem;
   transition-duration: 0s;
 }
 
 .menu .active {
   border-bottom: 0.2rem solid #d3b15b;
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.4rem;
 }
 
 .li-0-contain {
@@ -332,6 +332,7 @@ a {
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
+  /* margin: -13px; */
   text-decoration: none;
   font-size: 25px;
   color: #4c4c4c;
@@ -347,15 +348,15 @@ a {
 }
 
 .sidenav #a-1 {
-  padding: 0px 13px 0px 0px;
+  padding: 0px 13.2px 0px 0px;
 }
 
 .sidenav #a-2 {
-  padding: 0px 16px 0px 0px;
+  padding: 0px 16.3px 0px 0px;
 }
 
 .sidenav #a-3 {
-  padding: 0px 13px 0px 0px;
+  padding: 0px 13.3px 0px 0px;
 }
 
 .sidenav a:hover {
