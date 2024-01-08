@@ -2110,6 +2110,7 @@ h1 {
   font-weight: 800;
   color: rgb(53, 53, 53);
 }
+
 .box-conatin {
   display: flex;
 }
@@ -2183,4 +2184,314 @@ h1 {
   .marin {
     width: 90%;
   }
+}
+
+/* ////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+//////////////////////////////////////// */
+
+/* Fonts
+------------------------------------------------------------------------------*/
+
+.menu-contain {
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.menu {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 900;
+  z-index: 100;
+  height: 72px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  margin-top: -57px;
+  right: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 0px 27px;
+  display: inline-block;
+  font-family: "Novecentowide";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu .last {
+  padding-right: 4px;
+}
+
+.menu a {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+.menu .items-0:hover {
+  border-bottom: 0.2rem solid #d3b15b;
+  padding-bottom: 0.7rem;
+  transition-duration: 0s;
+}
+
+.menu .active {
+  border-bottom: 0.2rem solid #d3b15b;
+  padding-bottom: 0.7rem;
+}
+
+.li-0-contain {
+  /* position: fixed; */
+  padding: 1rem;
+  background-color: white;
+  width: 100%;
+  z-index: -1;
+}
+
+.li-0 {
+  text-transform: uppercase;
+  /* float: left; */
+  font-size: 1.5rem;
+}
+
+.responsive-logo {
+  position: absolute;
+  top: -10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #4c4c4c;
+  display: block;
+  transition: 0.3s;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.sidenav i {
+  padding: 0px 10px 0px 0px;
+  color: #4c4c4c;
+}
+
+.sidenav #a-1 {
+  padding: 0px 13px 0px 0px;
+}
+
+.sidenav #a-2 {
+  padding: 0px 16px 0px 0px;
+}
+
+.sidenav #a-3 {
+  padding: 0px 13px 0px 0px;
+}
+
+.sidenav a:hover {
+  color: #4c4c4c;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: -170px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.click {
+  display: none;
+}
+
+.logo {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: -9px;
+}
+
+.logo h3 {
+  font-weight: 900;
+  color: #d3b15b;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1201px) {
+  .click {
+    display: block;
+  }
+
+  .logo {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+/* footer
+------------------------------------------------------------------------------*/
+
+#footer {
+  clear: both;
+  background: #222224 url(../images/bg_footer.png);
+  padding: 27px 0 0;
+  color: #a5a5aa;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#footer h3 {
+  color: #fff;
+  font-family: "Novecentowide";
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+#footer .conact p {
+  line-height: 24px;
+  font-size: 14px;
+  padding: 2px 0 0;
+  margin-bottom: 8px;
+}
+
+#footer .copy {
+  color: #717176;
+  font-size: 14px;
+  padding: 28px 0;
+  clear: both;
+  width: 90%;
+  margin: auto;
+  border-top: 1px solid #333336;
+  text-align: center;
+}
+
+.comntain-txt {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.marin-0 {
+  margin-right: 70px;
+  /* border-right: 1px solid white; */
+}
+
+.marin-1 {
+  text-align: left;
+}
+
+/* .marin {
+  margin: auto;
+  float: none;
+  margin-bottom: 20px;
+  width: 10%;
+}
+
+.conact {
+  width: 100%;
+} */
+
+.conact i {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.icon-0 {
+  margin-bottom: 25px;
+}
+
+.icon-0 i {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.conact #p-0 {
+  margin-left: 3px;
+  margin-right: 1.5px;
+}
+
+.conact #p-2 {
+  margin-left: 2.4px;
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 561px) {
+  .comntain-txt {
+    display: block;
+    width: 160px;
+    /* margin-left: 40vw; */
+  }
+  .marin-0 {
+    margin: auto;
+  }
+  .marin-1 {
+    margin-top: 30px;
+  }
+}
+
+.line {
+  text-align: justify;
 }
