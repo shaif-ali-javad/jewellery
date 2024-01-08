@@ -182,11 +182,18 @@ a {
   margin-right: 2px;
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 561px) {
   .comntain-txt {
     display: block;
-    margin-left: 20px;
+    width: 160px;
+    /* margin-left: 40vw; */
   }
+  .marin-0 {
+    margin: auto;
+  }
+  /* .marin-1 {
+    text-align: left;
+  } */
 }
 
 /* @media screen and (max-width: 1200px) {
@@ -264,7 +271,7 @@ a {
 
 .navbar {
   position: fixed;
-  margin-top: -105px;
+  margin-top: -110px;
   right: 0;
 }
 
@@ -276,6 +283,17 @@ a {
 
 .menu a {
   color: #3f3f3f;
+}
+
+.menu .items-0:hover {
+  border-bottom: 0.2rem solid #d3b15b;
+  padding-bottom: 0.7rem;
+  transition-duration: 0s;
+}
+
+.menu .active {
+  border-bottom: 0.2rem solid #d3b15b;
+  padding-bottom: 0.7rem;
 }
 
 .li-0-contain {
@@ -357,6 +375,7 @@ a {
 .logo {
   text-align: left;
   margin-left: 30px;
+  margin-top: -9px;
 }
 
 .logo h3 {
@@ -386,4 +405,9 @@ a {
   width: 100%;
   margin: -60px 0;
   overflow: hidden;
+}
+
+.text-intro {
+  text-align: justify;
+  margin: 0 1rem;
 }
