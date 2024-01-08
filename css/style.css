@@ -185,7 +185,8 @@ a {
 @media screen and (max-width: 561px) {
   .comntain-txt {
     display: block;
-    width: 160px;
+    width: 100%;
+    margin-left: 20px;
     /* margin-left: 40vw; */
   }
   .marin-0 {
