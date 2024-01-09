@@ -2643,7 +2643,7 @@ a:hover {
 
 .section-products .single-product .part-1 ul {
   position: absolute;
-  bottom: -61px;
+  bottom: -261px;
   left: 0px;
   margin: 0;
   padding: 0;
@@ -2670,13 +2670,55 @@ a:hover {
 .section-products .single-product .part-1 ul li h3 {
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 25%;
+  margin-top: 50%;
   color: white;
   text-align: center;
   /* margin-right: 1rem; */
   justify-content: center;
   /* box-shadow: 0 2px 20px rgb(50 50 50 / 10%); */
   transition: color 0.2s;
+}
+
+@media screen and (max-width: 1199px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 42%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 38%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 28%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 32%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .section-products .single-product .part-1 ul li h3 {
+    margin-top: 34%;
+  }
 }
 
 .section-products .single-product .part-1 ul li a:hover {
