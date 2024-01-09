@@ -2579,13 +2579,14 @@ a:hover {
 }
 
 .section-products #product-1 .part-1::before {
-  background: url("../img/red-bike.jpeg") no-repeat center;
+  background: url("../img/l4.jpg") no-repeat center;
   background-size: cover;
   transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-  background: url("../img/red-bike.jpeg") no-repeat center;
+  background: url("https://content.jdmagicbox.com/rep/b2b/gold-scrap/gold-scrap-7.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit")
+    no-repeat center;
   background-size: cover;
 }
 
@@ -2595,12 +2596,14 @@ a:hover {
 }
 
 .section-products #product-4 .part-1::before {
-  background: url("../img/red-bike.jpeg") no-repeat center;
+  background: url("https://img.freepik.com/free-photo/photorealistic-money-concept_23-2151027589.jpg?t=st=1704742532~exp=1704746132~hmac=b24f06353db680038f544777bf249604c3361c23cdea39f8979609ba3ce1a253&w=360")
+    no-repeat center;
   background-size: cover;
 }
 
 .section-products #product-5 .part-1::before {
-  background: url("../img/red-bike.jpeg") no-repeat center;
+  background: url("https://www.pamp.com/sites/pamp/files/2022-02/1kg_fortuna.png")
+    no-repeat center;
   background-size: cover;
   transition: all 0.3s;
 }
