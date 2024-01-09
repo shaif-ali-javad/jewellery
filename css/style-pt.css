@@ -2656,7 +2656,7 @@ a:hover {
 
 .section-products .single-product:hover .part-1 ul {
   bottom: 0px;
-  background-color: #0095ff;
+  background-color: rgb(0, 43, 78);
   right: 0;
   margin: auto;
   opacity: 1;
