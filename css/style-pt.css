@@ -2669,10 +2669,11 @@ a:hover {
 
 .section-products .single-product .part-1 ul li h3 {
   font-size: 2rem;
-  margin-top: 50%;
+  font-weight: 500;
+  margin-top: 25%;
   color: white;
   text-align: center;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   justify-content: center;
   /* box-shadow: 0 2px 20px rgb(50 50 50 / 10%); */
   transition: color 0.2s;
