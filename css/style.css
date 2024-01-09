@@ -426,6 +426,7 @@ a {
   padding: 200px 20px 100px;
   margin-bottom: 120px;
   color: white;
+  border-radius: 20px;
 }
 
 .box1 {
@@ -435,6 +436,7 @@ a {
   padding: 200px 20px 100px;
   margin-bottom: 120px;
   color: white;
+  border-radius: 20px;
 }
 
 .box2 {
@@ -444,6 +446,7 @@ a {
   padding: 200px 20px 100px;
   margin-bottom: 120px;
   color: white;
+  border-radius: 20px;
 }
 
 .box0:hover,
