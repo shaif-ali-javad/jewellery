@@ -422,3 +422,8 @@ a {
 .box i {
   font-size: 3rem;
 }
+
+.box .p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
