@@ -446,6 +446,13 @@ a {
   color: white;
 }
 
+.box0:hover,
+.box1:hover,
+.box2:hover {
+  background-color: rgb(0, 43, 78);
+  background-image: none;
+}
+
 .box:hover .overlay-0,
 .box:hover .overlay-1,
 .box:hover .overlay-2 {
@@ -500,6 +507,10 @@ a {
   opacity: 0;
   width: 90%;
 }
+/* .overlay-0 p {
+  background-color: rgba(0, 0, 0, 0.857);
+  padding: 10px;
+} */
 
 @media screen and (max-width: 992px) {
   .overlay-0 {
