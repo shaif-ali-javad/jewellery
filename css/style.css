@@ -419,6 +419,120 @@ a {
   /* padding: 0; */
 }
 
+.box0 {
+  background-image: url("https://images.unsplash.com/photo-1520853504280-249b72dc947c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 20px 100px;
+  margin-bottom: 120px;
+  color: white;
+}
+
+.box1 {
+  background-image: url("https://images.unsplash.com/photo-1603792907191-89e55f70099a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 20px 100px;
+  margin-bottom: 120px;
+  color: white;
+}
+
+.box2 {
+  background-image: url("https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 20px 100px;
+  margin-bottom: 120px;
+  color: white;
+}
+
+.box:hover .overlay-0,
+.box:hover .overlay-1,
+.box:hover .overlay-2 {
+  opacity: 1;
+}
+
+.box0:hover .pp,
+.box1:hover .pp,
+.box2:hover .pp {
+  opacity: 0;
+}
+
+.box0 .pp,
+.box1 .pp,
+.box2 .pp {
+  margin-bottom: 110px;
+}
+
+/* .box0 .ppp,
+.box1 .ppp,
+.box2 .ppp {
+  height: 100px;
+  background-color: #000000a5;
+} */
+
+.overlay-0 {
+  position: absolute;
+  top: 8%;
+  left: 9%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+  opacity: 0;
+  width: 90%;
+}
+
+.overlay-1 {
+  position: absolute;
+  top: 42%;
+  left: 9%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+  opacity: 0;
+  width: 90%;
+}
+
+.overlay-2 {
+  position: absolute;
+  top: 75%;
+  left: 9%;
+  transform: translate(-5%, -5%);
+  text-align: center;
+  opacity: 0;
+  width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .overlay-0 {
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    transform: translate(-5%, -5%);
+    text-align: center;
+    opacity: 0;
+    width: 90%;
+  }
+
+  .overlay-1 {
+    position: absolute;
+    top: 43%;
+    left: 9%;
+    transform: translate(-5%, -5%);
+    text-align: center;
+    opacity: 0;
+    width: 90%;
+  }
+
+  .overlay-2 {
+    position: absolute;
+    top: 79%;
+    left: 9%;
+    transform: translate(-5%, -5%);
+    text-align: center;
+    opacity: 0;
+    width: 90%;
+  }
+}
+
 .box i {
   font-size: 3rem;
 }
@@ -426,4 +540,8 @@ a {
 .box .p {
   font-size: 1.3rem;
   font-weight: 600;
+}
+
+.box p {
+  color: white;
 }
