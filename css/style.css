@@ -418,3 +418,7 @@ a {
   margin: 25px 1rem;
   /* padding: 0; */
 }
+
+.box i {
+  font-size: 3rem;
+}
